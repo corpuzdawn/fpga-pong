@@ -1,0 +1,56 @@
+--------------------------------------------------------------------------------------
+Timing Analyzer Summary
+--------------------------------------------------------------------------------------
+
+Type           : Worst-case tsu
+Slack          : N/A
+Required Time  : None
+Actual Time    : 6.136 ns
+From           : PB[3]
+To             : ballSpeed[0]
+From Clock     : --
+To Clock       : CLK50
+Failed Paths   : 0
+
+Type           : Worst-case tco
+Slack          : N/A
+Required Time  : None
+Actual Time    : 26.008 ns
+From           : score1[5]
+To             : HEX0[5]
+From Clock     : CLK50
+To Clock       : --
+Failed Paths   : 0
+
+Type           : Worst-case th
+Slack          : N/A
+Required Time  : None
+Actual Time    : 0.213 ns
+From           : SW[1]
+To             : ballSpeed[1]
+From Clock     : --
+To Clock       : CLK50
+Failed Paths   : 0
+
+Type           : Clock Setup: 'CLK50'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 185.39 MHz ( period = 5.394 ns )
+From           : mycnter:M1|q[23]
+To             : mycnter:M1|q[12]
+From Clock     : CLK50
+To Clock       : CLK50
+Failed Paths   : 0
+
+Type           : Total number of failed paths
+Slack          : 
+Required Time  : 
+Actual Time    : 
+From           : 
+To             : 
+From Clock     : 
+To Clock       : 
+Failed Paths   : 0
+
+--------------------------------------------------------------------------------------
+
